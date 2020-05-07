@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  <title>Simple Calculator</title>
+</head>
+
+<body>
+
+  <!-- width -->
+  <div class="container">
+
+    <div class="calc-body">
+
+  
+      <form action="#" id="screen-form"> 
+        <input type="text" id="history" value=" " disabled>
+        <input type="text" id="result" value=" " disabled>
+      </form>
+
+
+      <div class="keyboard">
+        <table class="table keyboard">
+          <tbody>
+            <tr>
+              <td colspan="2"><button class="back">back</button></td>
+              <td><button class="clear">C</button></td>
+              <td><button class="action">/</button></td>
+            </tr>
+
+            <tr>
+              <td><button class="number">7</button></td>
+              <td><button class="number" value="8">8</button></td>
+              <td><button class="number">9</button></td>
+              <td><button class="action">*</button></td>
+
+            </tr>
+            <tr>
+              <td><button class="number">4</button></td>
+              <td><button class="number">5</button></td>
+              <td><button class="number">6</button></td>
+              <td><button class="action number">-</button></td>
+
+            </tr>
+            <tr>
+              <td><button class="number">1</button></td>
+              <td><button class="number">2</button></td>
+              <td><button class="number">3</button></td>
+              <td><button class="action">+</button></td>
+
+            </tr>
+            <tr>
+              <td><button class="number">0</button></td>
+              <td><button class="number">.</button></td>
+              <td colspan="2"><button class="calculate">=</button></td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+
+</html>
